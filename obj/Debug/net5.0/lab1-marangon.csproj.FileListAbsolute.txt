@@ -38,3 +38,6 @@ D:\Documentos\USMP\Semestre virtual 2021 - II\Programación I\lab1-marangon\obj\
 D:\Documentos\USMP\Semestre virtual 2021 - II\Programación I\lab1-marangon\obj\Debug\net5.0\lab1-marangon.pdb
 D:\Documentos\USMP\Semestre virtual 2021 - II\Programación I\lab1-marangon\obj\Debug\net5.0\lab1-marangon.genruntimeconfig.cache
 D:\Documentos\USMP\Semestre virtual 2021 - II\Programación I\lab1-marangon\obj\Debug\net5.0\lab1-marangon.csproj.CopyComplete
+D:\Documentos\USMP\Semestre virtual 2021 - II\Programación I\lab1-marangon\obj\Debug\net5.0\Razor\Views\Video Game\Create.cshtml.g.cs
+D:\Documentos\USMP\Semestre virtual 2021 - II\Programación I\lab1-marangon\obj\Debug\net5.0\Razor\Views\Video Game\Index.cshtml.g.cs
+D:\Documentos\USMP\Semestre virtual 2021 - II\Programación I\lab1-marangon\obj\Debug\net5.0\Razor\Views\Video Game\Update.cshtml.g.cs
