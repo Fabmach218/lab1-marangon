@@ -22,5 +22,15 @@ namespace lab1_marangon.Controllers
         public IActionResult Create(){
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Create(VideoGame objVideoGame){
+            
+            _context.Add(objVideoGame);
+            _context.SaveChanges();
+            ViewData["Message"] = "¡¡¡El videojuego se registró exitosamente!!!";
+            return View();
+            
+        }
     }
 }

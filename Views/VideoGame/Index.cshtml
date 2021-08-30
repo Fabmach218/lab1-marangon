@@ -19,7 +19,7 @@
                 Categoría
             </th>
             <th>
-                Precio
+                Precio (S/.)
             </th>
             <th>
                 Descuento (%)
@@ -48,7 +48,7 @@
                 @Html.DisplayFor(modelItem => item.descuento)
             </td>
             <td><a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.id">Editar</a></td>
-            <td><a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.id">Eliminar</a></td> 
+            <td><a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.id" onclick="return confirm('¿Seguro que desea eliminar el videojuego?')">Eliminar</a></td> 
         </tr>
 }
     </tbody>

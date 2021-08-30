@@ -1,0 +1,53 @@
+@model lab1_marangon.Models.VideoGame
+@{
+    ViewData["Title"] = "Videojuegos";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <h1 class="display-4">Formulario de Videojuego</h1>
+
+    <form asp-controller="VideoGame" asp-action="Create">
+
+        <div class="form-group row">
+            <label asp-for="nombre" class="form-label">Nombre</label>
+            <input type="text" asp-for="nombre" class="form-control" required/>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="categoria" class="form-label">Categoría</label>
+            <select asp-for="categoria" class="form-control" required>
+                <option value="">- Seleccione -</option>
+                <option value="Carreras">Carreras</option>
+                <option value="Estrategia">Estrategia</option>
+                <option value="Battle Royale">Battle Royale</option>
+                <option value="Deportes">Deportes</option>
+                <option value="Historia">Historia</option>
+                <option value="Otros">Otros</option>
+            </select>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="precio" class="form-label">Precio (S/.)</label>
+            <input type="number" asp-for="precio" class="form-control" required/>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="descuento" class="form-label">Descuento (%)</label>
+            <input type="number" asp-for="descuento" class="form-control" required/>
+        </div>
+
+        <div class="form-group row">
+            <button class="btn btn-primary">Crear videojuego</button>
+        </div>
+
+    </form>
+
+    <h1>@ViewData["Message"]</h1>
+
+    <p>
+        <a asp-action="Index">Volver a la lista</a>
+    </p>
+
+</div>
