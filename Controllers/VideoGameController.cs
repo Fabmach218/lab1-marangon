@@ -32,5 +32,24 @@ namespace lab1_marangon.Controllers
             return View();
             
         }
+
+        public IActionResult Update(int id){
+            VideoGame objVideoGame = _context.DataVideoGame.Find(id);
+            if(objVideoGame == null){
+                return NotFound();
+            }
+            return View(objVideoGame);
+        }
+
+        [HttpPost]
+        public IActionResult Update(int id, [Bind("id,nombre,categoria,precio,descuento")] VideoGame objVideoGame){
+            
+            _context.Update(objVideoGame);
+            _context.SaveChanges();
+            ViewData["Message"] = "¡¡¡El videojuego se editó exitosamente!!!";
+            return View();
+            
+        }
+
     }
 }
