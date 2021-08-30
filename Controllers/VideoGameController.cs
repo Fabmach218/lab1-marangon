@@ -51,5 +51,13 @@ namespace lab1_marangon.Controllers
             
         }
 
+        public IActionResult Delete(int id){
+
+            VideoGame objVideoGame = _context.DataVideoGame.Find(id);
+            _context.Remove(objVideoGame);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }
