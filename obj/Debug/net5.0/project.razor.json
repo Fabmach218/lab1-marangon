@@ -15634,13 +15634,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Documentos\\USMP\\Semestre virtual 2021 - II\\Programación I\\lab1-marangon\\Views\\Video Game\\Create.cshtml",
-      "TargetPath": "Views\\Video Game\\Create.cshtml",
+      "FilePath": "d:\\Documentos\\USMP\\Semestre virtual 2021 - II\\Programación I\\lab1-marangon\\Views\\VideoGame\\Index.cshtml",
+      "TargetPath": "Views\\VideoGame\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Documentos\\USMP\\Semestre virtual 2021 - II\\Programación I\\lab1-marangon\\Views\\Video Game\\Update.cshtml",
-      "TargetPath": "Views\\Video Game\\Update.cshtml",
+      "FilePath": "d:\\Documentos\\USMP\\Semestre virtual 2021 - II\\Programación I\\lab1-marangon\\Views\\VideoGame\\Update.cshtml",
+      "TargetPath": "Views\\VideoGame\\Update.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15654,6 +15654,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Documentos\\USMP\\Semestre virtual 2021 - II\\Programación I\\lab1-marangon\\Views\\VideoGame\\Create.cshtml",
+      "TargetPath": "Views\\VideoGame\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Documentos\\USMP\\Semestre virtual 2021 - II\\Programación I\\lab1-marangon\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15661,11 +15666,6 @@
     {
       "FilePath": "d:\\Documentos\\USMP\\Semestre virtual 2021 - II\\Programación I\\lab1-marangon\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Documentos\\USMP\\Semestre virtual 2021 - II\\Programación I\\lab1-marangon\\Views\\Video Game\\Index.cshtml",
-      "TargetPath": "Views\\Video Game\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
