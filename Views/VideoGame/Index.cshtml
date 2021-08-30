@@ -1,0 +1,55 @@
+@model IEnumerable<lab1_marangon.Models.VideoGame>
+@{
+    ViewData["Title"] = "VideoGame";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create">Crear videojuego</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Categoría
+            </th>
+            <th>
+                Precio
+            </th>
+            <th>
+                Descuento (%)
+            </th>
+            <th>
+                Editar
+            </th>
+            <th>
+                Eliminar
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.categoria)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descuento)
+            </td>
+            <td><a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.id">Editar</a></td>
+            <td><a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.id">Eliminar</a></td> 
+        </tr>
+}
+    </tbody>
+</table>

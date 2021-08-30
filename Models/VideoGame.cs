@@ -12,6 +12,6 @@ namespace lab1_marangon.Models
         public string nombre {get; set;}
         public string categoria {get; set;}
         public decimal precio {get; set;}
-        public decimal descuento {get; set;}
+        public int descuento {get; set;}
     }
 }
